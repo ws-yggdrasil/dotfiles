@@ -1,0 +1,9 @@
+# ~/.config/zsh/.zsh_plugins.txt
+# -------------------------------
+# Plugin list for antidote
+# -------------------------------
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-history-substring-search
+zsh-users/zsh-completions
+hlissner/zsh-autopair

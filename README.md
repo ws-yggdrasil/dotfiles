@@ -65,3 +65,32 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ---
 
 *This dotfiles repository is designed to work seamlessly on Ubuntu, macOS, and other Unix-based systems. For macOS, additional tweaks may be necessary if any issues arise.*
+
+~/.config/zsh/
+├── .zshenv                 # Biến môi trường toàn cục, được load đầu tiên
+├── .zshrc                  # File config chính, load các module
+├── lib/                    # Thư mục chứa các functions và utilities
+│   ├── aliases.zsh         # Các alias thường dùng
+│   ├── completion.zsh      # Cấu hình auto completion
+│   ├── exports.zsh         # Environment variables
+│   ├── functions/          # Thư mục chứa các custom functions
+│   │   ├── directories.zsh     # Smart directory creation and navigation
+│   │   ├── extraction.zsh      # Extract any archive format
+│   │   ├── fzf.zsh             # FZF enhanced functions
+│   │   ├── git.zsh             # Git workflow helpers
+│   │   └── projects.zsh        # Project templates
+│   ├── history.zsh         # Cấu hình history
+│   ├── key-bindings.zsh    # Custom key bindings
+│   └── theme.zsh           # Theme và prompt configuration
+├── completions/
+│   ├── git-completion.bash
+│   └── ...
+├── plugins/                # Custom plugins và git submodules
+│   ├── zsh-autosuggestions/
+│   ├── zsh-syntax-highlighting/
+│   └── custom-plugin/
+├── scripts/              # Scripts hỗ trợ
+│   ├── update.sh         # Update plugins
+│   └── install.sh        # Setup môi trường mới
+└── cache/               # Cache files cho performance
+    └── .zcompdump      # Completion dump files

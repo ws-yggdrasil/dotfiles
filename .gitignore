@@ -1,2 +1,8 @@
-### OSX ###
-.DS_Store
+# zsh ignore
+zsh/.antidote/*
+zsh/.zsh_plugins.zsh
+zsh/cache/*
+zsh/plugins/*
+
+# docker ignore
+docker/
